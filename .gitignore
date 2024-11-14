@@ -1,0 +1,61 @@
+# Ignore build directories
+/build/
+/build*/
+
+# Ignore CMake cache and output files
+CMakeCache.txt
+CMakeFiles/
+/cmake_install.cmake
+Makefile
+CMakeScripts/
+CTestTestfile.cmake
+Testing/
+
+# Ignore compiled object files, libraries, and executables
+*.obj
+*.o
+*.a
+*.so
+*.dll
+*.dylib
+*.exe
+
+# Ignore Ninja build files
+.ninja*
+build.ninja
+rules.ninja
+
+# Ignore Visual Studio build files
+*.vcxproj*
+*.pdb
+
+# Ignore macOS system files
+.DS_Store
+
+# Ignore external dependencies (third-party libraries)
+third_party/*
+!third_party/CMakeLists.txt  # Keep any CMakeLists for third_party
+
+# Ignore editor and IDE config files
+.idea/
+.vscode/
+*.swp
+*~
+
+# Ignore logs, temporary files, and other miscellaneous files
+*.log
+*.tmp
+*.bak
+
+# Ignore generated documentation
+/docs/
+/*.html
+
+# Ignore user-specific config files
+*.user
+*.run
+*.layout
+*.session
+
+#
+/cmake-build-debug/
